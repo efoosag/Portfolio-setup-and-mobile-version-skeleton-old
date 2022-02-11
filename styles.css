@@ -75,7 +75,11 @@
 
 .media-icon {
   display: flex;
-  width: 100px;
+  width: 120px;
   justify-content: space-between;
   padding: 20px;
+}
+
+li {
+  list-style: none;
 }
