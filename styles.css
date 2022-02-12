@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   background-color: rgba(233, 229, 229, 0.712);
+  padding: 0;
 }
 
 .title-content {
@@ -104,7 +105,7 @@ li {
   background-color: white;
   border-radius: 16px;
   padding-top: 10px;
-  margin: 20px;
+  margin: 10px;
 }
 
 .box {
@@ -202,26 +203,46 @@ li {
   font-size: 18px;
   line-height: 16px;
 }
-.footer {
-  background-color: white;
-  padding: 0;
-}
 
 .about {
   display: flex;
   flex-direction: column;
+  height: 1250px;
+  background-image: url("./images/base-about-my-self.svg.svg");
 }
+
 .about h1 {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 32px;
-  line-height: 44px;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
   color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0px;
+  height: 101px;
+  width: 327px;
+}
+
+.about-content {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  flex-grow: 0;
+  margin: 12px 0px;
+  height: 144px;
+  width: 327px;
 }
 
 .connect {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -235,10 +256,29 @@ li {
 
 .nav-icon {
   display: flex;
+  height: 16.965517044067383px;
+  width: 12.711573600769043px;
+  border-radius: 0px;
 }
 
 .icon {
   padding: 10px;
+}
+
+.get-my-resume {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
 }
 
 .about ul {
@@ -246,6 +286,7 @@ li {
   flex-direction: column;
   justify-content: flex-start;
 }
+
 .languages,
 .frameworks {
   margin: 30px 0 30px 0;
@@ -258,31 +299,24 @@ li {
   align-items: center;
 }
 
-.get-my-resume {
-  align-items: center;
-  padding-left: 10px;
-  background: #ffffff;
-  border: 1px solid #9eb4ec;
-  box-sizing: border-box;
-  border-radius: 16px;
-  width: 200px;
-  font-size: 24px;
-  margin-left: 10px;
-}
-
 .contact-me {
   display: flex;
   flex-direction: column;
-  height: 775px;
-
+  justify-self: center;
+  align-items: center;
+  height: 779px;
+  width: 420px;
+  padding: 0;
   background-image: url("./images/contact-me.svg");
 }
 
 .wrapper {
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  height: 775px;
+  align-items: flex-start;
+  justify-content: center;
+  height: 779px;
   background-image: url("./images/header-mobile.svg");
 }
 
@@ -290,43 +324,68 @@ li {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
-  line-height: 52px;
+  font-size: 48px;
+  line-height: 56px;
   display: flex;
-  align-items: center;
+  align-self: center;
   text-align: center;
   color: #ffffff;
-  margin-top: 150px;
 }
 
 .wrapper p {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
   color: #ebebff;
-  margin-bottom: 10px;
+  width: 327;
+  height: 102px;
 }
 
 .me {
-  background: #ffffff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
+  height: 48px;
+  width: 327px;
+  display: flex;
   margin-bottom: 10px;
+  margin-left: 20px;
 }
 
 .email {
-  background: #ffffff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
+  height: 48px;
+  width: 327px;
+  display: flex;
+  justify-content: flex-start;
   margin-bottom: 10px;
+  margin-left: 20px;
 }
 
 .message {
   background: #ffffff;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
+  height: 170px;
+  width: 327px;
+  padding-top: 10px;
   margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.get-in-touch {
+  display: flex;
+  background: #ffffff;
+  border: 1px solid #9eb4ec;
+  border-radius: 8px;
+  width: 200px;
+  height: 48px;
+  font-size: 24px;
+  margin-left: 20px;
+  margin-top: 10px;
+  align-self: flex-start;
+  padding: 0 0 20px 20px;
 }
