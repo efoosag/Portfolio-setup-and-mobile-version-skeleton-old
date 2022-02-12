@@ -196,9 +196,137 @@ li {
   height: 24px;
   border-radius: 8px;
   padding-left: 10;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 16px;
+}
+.footer {
+  background-color: white;
+  padding: 0;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+}
+.about h1 {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.connect {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 8px;
+}
+
+.nav-icon {
+  display: flex;
+}
+
+.icon {
+  padding: 10px;
+}
+
+.about ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.languages,
+.frameworks {
+  margin: 30px 0 30px 0;
+  display: flex;
+  align-items: center;
+}
+.skills {
+  margin: 0 0 30px 0;
+  display: flex;
+  align-items: center;
+}
+
+.get-my-resume {
+  align-items: center;
+  padding-left: 10px;
+  background: #ffffff;
+  border: 1px solid #9eb4ec;
+  box-sizing: border-box;
+  border-radius: 16px;
+  width: 200px;
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  height: 775px;
+
+  background-image: url("./images/contact-me.svg");
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 775px;
+  background-image: url("./images/header-mobile.svg");
+}
+
+.wrapper h1 {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 150px;
+}
+
+.wrapper p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  margin-bottom: 10px;
+}
+
+.me {
+  background: #ffffff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.email {
+  background: #ffffff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.message {
+  background: #ffffff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  margin-bottom: 10px;
 }
